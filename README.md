@@ -21,6 +21,83 @@ Procedure:
   •	"In photosynthesis, plants absorb sunlight to produce ____."
 
 
+## STRAIGHTFORWARD PROMPTING
+
+**DEFINITION:**
+
+Straightforward Prompting is a basic Prompt Engineering technique in which clear, direct, and simple instructions are provided to an AI model to generate a specific response.
+
+In this technique, the user directly communicates the required task without providing unnecessary background information. The AI model understands the instruction and generates an appropriate response.
+
+This technique is useful for simple questions, direct instructions, basic information retrieval, and customer support applications.
+
+**OBJECTIVE:**
+
+To generate clear and direct responses from an AI-powered customer support chatbot for common customer queries.
+
+**PROMPT:**
+
+"Act as an intelligent AI-powered customer support chatbot for an online shopping company. A customer has purchased a mobile phone and wants to know how to track the order. Explain the complete order tracking procedure in five simple steps. Use friendly, polite, and easy-to-understand language. Also, provide a short message offering additional assistance."
+
+**GENERATED OUTPUT:**
+
+AI-Powered Customer Support Chatbot:
+
+Hello! Welcome to our Customer Support Service.
+
+Thank you for shopping with us. I am happy to help you track your order.
+
+Please follow these five simple steps to track your order:
+
+Step 1: Open the Application
+
+Open the online shopping application on your mobile phone or visit the official shopping website.
+
+Step 2: Login to Your Account
+
+Enter your registered email address or mobile number and password to log in to your account.
+
+Step 3: Navigate to My Orders
+
+After logging in, go to the "My Orders" section available in your account.
+
+Step 4: Select Your Order
+
+Find and select the product that you want to track from your order history.
+
+Step 5: Check Delivery Status
+
+Click on the "Track Order" option to view the current delivery status, shipping information, and estimated delivery date.
+
+Additional Assistance:
+
+If you experience any difficulty while tracking your order, please contact our customer support team.
+
+Thank you for choosing our service!
+
+**OBSERVATION:**
+
+The AI chatbot understood the direct instruction and generated a step-by-step explanation for tracking an online order. The response was simple, clear, and user-friendly.
+
+**EVALUATION:**
+
+The generated response was evaluated based on the following points:
+
+Accuracy: The response provided relevant order tracking steps.
+
+Clarity: The instructions were easy to understand.
+
+Relevance: The output directly addressed the customer's question.
+
+User-Friendly Nature: The chatbot maintained a polite and conversational tone.
+
+Usefulness: Customers can follow the instructions to track their orders.
+
+RESULT:
+
+Straightforward Prompting successfully generated a clear and direct response for the customer's order tracking query.
+
+
 ### Conclusion 
 
 
