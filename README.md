@@ -1,7 +1,7 @@
 # Ex.No.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques for the the following Prompt Engineering types with examples - Straightforward Prompts - Tabular Format Prompting - Missing Word Prompting - Preceding Question Prompting.
 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 19.11.2026                                                                           
+### REGISTER NUMBER : 212225040460
 ### Aim: To write the prompts for these following prompt types and evaluate that using any one method 1. Straightforward Prompts, 2. Tabular Format Prompting 3.Preceding Question Prompting and 4. Missing Word Prompting
 
 ### Explanation - Any one use case from Unit 5 and generate the report for that with the unit 2 Prompt type
@@ -259,13 +259,13 @@ General information support.
 
 <img width="1192" height="796" alt="Screenshot 2026-11-19 123010" src="https://github.com/user-attachments/assets/48602640-1a76-48ed-966b-ceca571030ee" />
 
-### Conclusion 
+## Conclusion:
+
+The four Advanced Prompt Engineering Techniques, namely Straightforward Prompting, Tabular Format Prompting, Missing Word Prompting, and Preceding Question Prompting, were successfully studied and implemented with suitable examples. An AI-powered customer support chatbot was designed to handle product troubleshooting, order tracking, and general inquiries. The outputs of ChatGPT, Google Gemini, and Microsoft Copilot were compared and evaluated based on accuracy, creativity, clarity, and response quality. Thus, the importance of effective prompt engineering in improving AI-generated responses was understood. 
 
 
-Result: The various types of Prompts are executed successfully with generated the report.
 
 
-
-
-# Result: Thus the Prompts were exected succcessfully.
+# Result: 
+Thus the Prompts were exected succcessfully.
 
