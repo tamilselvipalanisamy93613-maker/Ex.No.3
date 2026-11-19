@@ -227,7 +227,7 @@ COMPARATIVE EVALUATION OF AI TOOLS
 | 4 | Conversational Tone | Very Good | Good | Good |
 | 5 | Information Organization | Very Good | Very Good | Very Good |
 | 6 | Customer Support | Very Good | Very Good | Very Good |
-Note: This is a qualitative comparison of expected outputs. Actual results may vary depending on the prompts and AI model versions.
+
 
 **OVERALL EVALUATION**
 
