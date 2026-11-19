@@ -67,35 +67,12 @@ Tabular Format Prompting is a technique in which information is organized into r
 
 **Expected AI Output**
 
-Customer Issue
-
-Possible Reason
-
-Solution
-
-Product not working
-
-Battery or power issue
-
-Check the power connection and restart the product.
-
-Order delayed
-
-Delivery delay
-
-Check the latest order status.
-
-Payment failed
-
-Network or bank issue
-
-Verify the payment status before trying again.
-
-Product damaged
-
-Product defect
-
-Contact customer support for assistance.
+| Customer Issue | Possible Reason | Solution |
+|---|---|---|
+| Product not working | Battery or power issue | Check the power connection and restart the product. |
+| Order delayed | Delivery delay | Check the latest order status. |
+| Payment failed | Network or bank issue | Verify the payment status before trying again. |
+| Product damaged | Product defect | Contact customer support for assistance. |
 
 **Advantages**
 
@@ -177,45 +154,12 @@ Produces more meaningful answers.
 
 ## COMPARISON OF FOUR PROMPT ENGINEERING TECHNIQUES
 
-Prompting Technique
-
-Main Purpose
-
-Output Format
-
-Major Advantage
-
-Straightforward Prompting
-
-Gives direct instructions
-
-Simple text
-
-Quick and clear responses
-
-Tabular Format Prompting
-
-Organizes information
-
-Table
-
-Easy comparison
-
-Missing Word Prompting
-
-Completes incomplete sentences
-
-Filled sentences
-
-Contextual understanding
-
-Preceding Question Prompting
-
-Provides context through an initial question
-
-Detailed response
-
-Relevant answers
+| S.No | Prompting Technique | Main Purpose | Output Format | Major Advantage |
+|---|---|---|---|---|
+| 1 | Straightforward Prompting | Gives clear and direct instructions | Simple Text | Quick and clear responses |
+| 2 | Tabular Format Prompting | Organizes information systematically | Table Format | Easy to read and compare |
+| 3 | Missing Word Prompting | Fills in missing words | Completed Sentences | Improves contextual understanding |
+| 4 | Preceding Question Prompting | Provides context through an initial question | Detailed Answers | Generates relevant responses |
 
 ## AI TOOLS COMPARISON
 
@@ -275,62 +219,14 @@ Maintains a helpful communication style.
 
 COMPARATIVE EVALUATION OF AI TOOLS
 
-Evaluation Criteria
-
-ChatGPT
-
-Google Gemini
-
-Microsoft Copilot
-
-Accuracy
-
-Good
-
-Good
-
-Good
-
-Creativity
-
-Good
-
-Good
-
-Good
-
-Response Clarity
-
-Very Good
-
-Very Good
-
-Very Good
-
-Conversational Tone
-
-Very Good
-
-Good
-
-Good
-
-Information Organization
-
-Very Good
-
-Very Good
-
-Very Good
-
-Customer Support
-
-Very Good
-
-Very Good
-
-Very Good
-
+| S.No | Evaluation Criteria | ChatGPT | Google Gemini | Microsoft Copilot |
+|---|---|---|---|---|
+| 1 | Accuracy | Good | Good | Good |
+| 2 | Creativity | Very Good | Very Good | Good |
+| 3 | Response Clarity | Very Good | Very Good | Very Good |
+| 4 | Conversational Tone | Very Good | Good | Good |
+| 5 | Information Organization | Very Good | Very Good | Very Good |
+| 6 | Customer Support | Very Good | Very Good | Very Good |
 Note: This is a qualitative comparison of expected outputs. Actual results may vary depending on the prompts and AI model versions.
 
 **OVERALL EVALUATION**
@@ -359,6 +255,9 @@ Automated customer query handling.
 
 General information support.
 
+## COMPARATIVE EVALUATION OF AI TOOLS – GRAPHICAL REPRESENTATION
+
+<img width="1192" height="796" alt="Screenshot 2026-11-19 123010" src="https://github.com/user-attachments/assets/48602640-1a76-48ed-966b-ceca571030ee" />
 
 ### Conclusion 
 
