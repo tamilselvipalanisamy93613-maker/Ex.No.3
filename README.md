@@ -23,79 +23,341 @@ Procedure:
 
 ## STRAIGHTFORWARD PROMPTING
 
-**DEFINITION:**
+**Explanation**
 
-Straightforward Prompting is a basic Prompt Engineering technique in which clear, direct, and simple instructions are provided to an AI model to generate a specific response.
+Straightforward Prompting is a technique in which clear, simple, and direct instructions are given to an AI tool. It helps the AI understand the task without unnecessary information.
 
-In this technique, the user directly communicates the required task without providing unnecessary background information. The AI model understands the instruction and generates an appropriate response.
+**Example Prompt**
 
-This technique is useful for simple questions, direct instructions, basic information retrieval, and customer support applications.
+"You are an AI customer support chatbot. Help customers with product troubleshooting, order tracking, and general inquiries. Provide simple, clear, and friendly answers."
 
-**OBJECTIVE:**
+**Expected AI Output**
 
-To generate clear and direct responses from an AI-powered customer support chatbot for common customer queries.
+Hello! Welcome to Customer Support.
 
-**PROMPT:**
+I am your AI assistant. How can I help you today?
 
-"Act as an intelligent AI-powered customer support chatbot for an online shopping company. A customer has purchased a mobile phone and wants to know how to track the order. Explain the complete order tracking procedure in five simple steps. Use friendly, polite, and easy-to-understand language. Also, provide a short message offering additional assistance."
+Product Troubleshooting
 
-**GENERATED OUTPUT:**
+Order Tracking
 
-AI-Powered Customer Support Chatbot:
+General Inquiries
 
-Hello! Welcome to our Customer Support Service.
+Please describe your problem, and I will help you find a solution.
 
-Thank you for shopping with us. I am happy to help you track your order.
+**Advantages**
 
-Please follow these five simple steps to track your order:
+Easy to understand and implement.
 
-Step 1: Open the Application
+Saves time.
 
-Open the online shopping application on your mobile phone or visit the official shopping website.
+Provides direct answers.
 
-Step 2: Login to Your Account
+Suitable for simple customer queries.
 
-Enter your registered email address or mobile number and password to log in to your account.
+## TABULAR FORMAT PROMPTING
 
-Step 3: Navigate to My Orders
+**Explanation**
 
-After logging in, go to the "My Orders" section available in your account.
+Tabular Format Prompting is a technique in which information is organized into rows and columns. It helps AI present information in a structured format, making it easier to understand and compare.
 
-Step 4: Select Your Order
+**Example Prompt**
 
-Find and select the product that you want to track from your order history.
+"You are an AI customer support chatbot. Display customer issues and their solutions in a table with the columns Issue, Possible Reason, and Solution. Include product troubleshooting, order tracking, and payment-related problems."
 
-Step 5: Check Delivery Status
+**Expected AI Output**
 
-Click on the "Track Order" option to view the current delivery status, shipping information, and estimated delivery date.
+Customer Issue
 
-Additional Assistance:
+Possible Reason
 
-If you experience any difficulty while tracking your order, please contact our customer support team.
+Solution
 
-Thank you for choosing our service!
+Product not working
 
-**OBSERVATION:**
+Battery or power issue
 
-The AI chatbot understood the direct instruction and generated a step-by-step explanation for tracking an online order. The response was simple, clear, and user-friendly.
+Check the power connection and restart the product.
 
-**EVALUATION:**
+Order delayed
 
-The generated response was evaluated based on the following points:
+Delivery delay
 
-Accuracy: The response provided relevant order tracking steps.
+Check the latest order status.
 
-Clarity: The instructions were easy to understand.
+Payment failed
 
-Relevance: The output directly addressed the customer's question.
+Network or bank issue
 
-User-Friendly Nature: The chatbot maintained a polite and conversational tone.
+Verify the payment status before trying again.
 
-Usefulness: Customers can follow the instructions to track their orders.
+Product damaged
 
-RESULT:
+Product defect
 
-Straightforward Prompting successfully generated a clear and direct response for the customer's order tracking query.
+Contact customer support for assistance.
+
+**Advantages**
+
+Organizes information clearly.
+
+Makes comparison easier.
+
+Improves readability.
+
+Useful for handling multiple customer problems.
+
+## MISSING WORD PROMPTING
+
+**Explanation**
+
+Missing Word Prompting is a technique in which one or more words are intentionally left blank in a sentence. The AI identifies the missing information and completes the sentence based on the given context.
+
+It helps AI understand incomplete information and generate meaningful responses.
+
+**Example Prompt**
+
+"Complete the following customer support responses by filling in the missing words.
+
+To track your order, please enter your ______ number.
+
+If your product is not working, check the ______ connection.
+
+For payment issues, contact our customer ______ team.
+
+To return a product, check the return ______."
+
+**Expected AI Output**
+
+To track your order, please enter your order number.
+
+If your product is not working, check the power connection.
+
+For payment issues, contact our customer support team.
+
+To return a product, check the return policy.
+
+**Advantages**
+
+Improves contextual understanding.
+
+Helps complete incomplete sentences.
+
+Useful for filling missing information.
+
+Supports automated customer response generation.
+
+## PRECEDING QUESTION PROMPTING
+
+**Explanation**
+
+Preceding Question Prompting is a technique in which a question is asked before the main task. The initial question provides context and guides the AI to generate a more relevant answer.
+
+It helps the AI understand the customer's problem before providing a solution.
+
+**Example Prompt**
+
+"Question 1: What should an AI chatbot do when a customer reports a damaged product?
+
+Question 2: Based on the previous question, generate a polite customer support response that explains the next steps."
+
+**Expected AI Output**
+
+"I am sorry to hear that your product arrived damaged. We apologize for the inconvenience. Please share your order details and a description of the issue. Our customer support team will guide you through the available replacement or return process."
+
+**Advantages**
+
+Provides additional context.
+
+Improves the relevance of responses.
+
+Helps understand customer requirements.
+
+Produces more meaningful answers.
+
+## COMPARISON OF FOUR PROMPT ENGINEERING TECHNIQUES
+
+Prompting Technique
+
+Main Purpose
+
+Output Format
+
+Major Advantage
+
+Straightforward Prompting
+
+Gives direct instructions
+
+Simple text
+
+Quick and clear responses
+
+Tabular Format Prompting
+
+Organizes information
+
+Table
+
+Easy comparison
+
+Missing Word Prompting
+
+Completes incomplete sentences
+
+Filled sentences
+
+Contextual understanding
+
+Preceding Question Prompting
+
+Provides context through an initial question
+
+Detailed response
+
+Relevant answers
+
+## AI TOOLS COMPARISON
+
+The same customer support chatbot task can be tested using different AI tools, such as ChatGPT, Google Gemini, and Microsoft Copilot.
+
+## Common Test Prompt
+
+"Create an AI-powered customer support chatbot that helps customers with product troubleshooting, order tracking, and general inquiries. Provide accurate, friendly, and easy-to-understand responses."
+
+**1. ChatGPT**
+
+Output:
+
+ChatGPT generates conversational and structured responses. It provides step-by-step troubleshooting instructions, order tracking guidance, and polite customer support messages.
+
+Evaluation:
+
+Provides clear explanations.
+
+Generates well-structured responses.
+
+Maintains a friendly conversational tone.
+
+Handles different customer queries effectively.
+
+**2. Google Gemini**
+
+Output:
+
+Gemini generates informative customer support responses. It explains common product issues, provides order tracking guidance, and suggests possible solutions.
+
+Evaluation:
+
+Provides useful information.
+
+Understands customer questions.
+
+Generates readable responses.
+
+Organizes information effectively.
+
+**3. Microsoft Copilot**
+
+Output:
+
+Copilot generates professional customer service responses. It provides troubleshooting suggestions, explains order-related issues, and offers solutions for general inquiries.
+
+Evaluation:
+
+Produces professional responses.
+
+Provides organized information.
+
+Gives practical suggestions.
+
+Maintains a helpful communication style.
+
+COMPARATIVE EVALUATION OF AI TOOLS
+
+Evaluation Criteria
+
+ChatGPT
+
+Google Gemini
+
+Microsoft Copilot
+
+Accuracy
+
+Good
+
+Good
+
+Good
+
+Creativity
+
+Good
+
+Good
+
+Good
+
+Response Clarity
+
+Very Good
+
+Very Good
+
+Very Good
+
+Conversational Tone
+
+Very Good
+
+Good
+
+Good
+
+Information Organization
+
+Very Good
+
+Very Good
+
+Very Good
+
+Customer Support
+
+Very Good
+
+Very Good
+
+Very Good
+
+Note: This is a qualitative comparison of expected outputs. Actual results may vary depending on the prompts and AI model versions.
+
+**OVERALL EVALUATION**
+
+All three AI tools can generate useful responses for customer support applications.
+
+ChatGPT is effective in generating conversational and detailed responses.
+
+Google Gemini is useful for generating informative and organized answers.
+
+Microsoft Copilot is useful for generating professional and structured responses.
+
+The four prompting techniques improve the way instructions are given to AI tools. Each technique serves a different purpose and can be selected based on the required output.
+
+**APPLICATIONS**
+
+E-commerce customer support.
+
+Online order tracking.
+
+Product troubleshooting.
+
+Payment-related assistance.
+
+Automated customer query handling.
+
+General information support.
 
 
 ### Conclusion 
